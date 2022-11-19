@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "Amantic SC";
+    src: url(AmaticSC-Bold.ttf);
+}
+
+@font-face {
+    font-family: "ComicNeue";
+    src: url(ComicNeue-Light.ttf);
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(14, 14, 97),rgb(71, 12, 71));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.main{
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    display: flex;
+}
+
+.leftside{
+    width: 50%;
+}
+
+.rightside{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.margin{
+    width: 95%;
+    margin: auto;
+}
+
+.login{
+    background-color:transparent;
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Amantic SC";
+    font-size: 55px;
+}
+
+.blank1{
+    width: 100%;
+    height: 20px;
+}
+
+.com{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.common{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: rgb(182, 181, 181);
+    border-width: 2px;
+    border-style: solid;
+    font-family: "ComicNeue";
+    font-size: 18px;
+}
+
+.common:hover{
+    border-color: rgb(132, 132, 132);
+}
+
+.blank2{
+    width: 100%;
+    height: 15px;
+}
+
+.blank4{
+    width: 100%;
+    height: 10px;
+}
+
+.others{
+    display: flex;
+}
+
+.remember{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    font-family: "ComicNeue";
+    font-size: 15px;
+    color: rgb(59, 58, 58);
+}
+
+.re{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.forgot{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    font-family: "ComicNeue";
+    font-size: 15px;
+    color: rgb(59, 58, 58);
+}
+
+.buttons{
+    width: 100%;
+    height: 180px;
+}
+
+.log{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(30, 11, 107);
+    font-family: "ComicNeue";
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.log:hover{
+    background-color: rgb(24, 9, 85);
+}
+
+.fb{
+    background-color: white;
+    border-color: rgb(182, 181, 181);
+    border-width: 2px;
+    border-style: solid;
+    font-family: "ComicNeue";
+    font-size: 18px;
+    color: rgb(59, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb:hover{
+    background-color: rgb(218, 217, 217);
+}
+
+.back{
+    font-family: "ComicNeue";
+    font-size: 18px;
+    color: rgb(59, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link:active{
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 840px) {
+    .main{
+        height: 590px;
+        width: 345px;
+    }
+    
+    .leftside{
+        display: none;
+    }
+    
+    .rightside{
+        width: 100%;
+    }
+
+}
